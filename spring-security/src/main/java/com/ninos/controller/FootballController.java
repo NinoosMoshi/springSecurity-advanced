@@ -5,16 +5,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/v1/security")
-public class StudentController {
+@RequestMapping("/football")
+public class FootballController {
 
-
-    @GetMapping("/student")
-    public String hiStudent(){
-        return "hi student";
+    @GetMapping("/start")
+    public String start(){
+        return "this is football";
     }
-
-
-
-
 }
