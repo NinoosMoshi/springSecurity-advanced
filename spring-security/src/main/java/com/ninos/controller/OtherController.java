@@ -6,12 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/basketball")
-public class Basketball {
+@RequestMapping("/other")
+public class OtherController {
 
     @PostMapping("/start")
     public String start(){
-        return "this is basketball";
+        return "this is other class";
     }
-
 }
